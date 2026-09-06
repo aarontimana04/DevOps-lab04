@@ -17,3 +17,14 @@ Automatizar el ciclo de vida de un sitio web estático en Amazon S3 utilizando A
     ├── error.html
     └── assets/
         └── styles.css
+
+
+## Evidencias
+
+El laboratorio valida:
+
+- creación y reutilización idempotente del bucket;
+- publicación de sitio web estático;
+- manejo de error 404 mediante `error.html`;
+- eliminación idempotente de recursos;
+- auditoría final sin buckets del laboratorio.
